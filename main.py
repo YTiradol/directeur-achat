@@ -580,7 +580,7 @@ async def auto_promo_task(bot_client):
             if salon:
                 nom_salon = f"#{salon.name}"
                 try:
-                    await salon.send("📢 **Bien à acheter**")
+                    await salon.send("📢 **[Rapport Automatique]** Analyse des opportunités immobilières :")
                     await generer_et_envoyer_promos(salon, guild_id_str, salon_id_str)
 
                     information = config_salon.get("information")
@@ -995,6 +995,8 @@ async def generer_et_envoyer_promos(destination, guild_id_str, salon_id_str, int
     promo_min = config_salon.get("promo_min", 7)
     positions_demandees = config_salon.get("positions_affichage", [1, 2, 3])
     pos_opportunite = config_salon.get("opportunite_position", 1)
+    filtres_noms = config_salon.get("filtres_noms")  # Liste de mots-clés ou None
+    message_aucune_promo = config_salon.get("message_aucune_promo")  # Message custom ou None
 
     donnees = await recuperer_donnees_api()
     liste_entreprises = donnees.get("batiments_entreprise", [])
@@ -1007,9 +1009,24 @@ async def generer_et_envoyer_promos(destination, guild_id_str, salon_id_str, int
             await destination.send(msg)
         return
 
+    # Filtre 1: Promotion minimum
     en_promotion = [b for b in liste_entreprises if int(b.get("promotion", 0)) >= promo_min]
+    
+    # Filtre 2: Mots-clés dans le nom (si des filtres sont configurés)
+    if filtres_noms:
+        en_promotion = [
+            b for b in en_promotion 
+            if any(filtre in b.get("nom", "").lower() for filtre in filtres_noms)
+        ]
+    
+    # Si aucune promo valide n'a été trouvée
     if not en_promotion:
-        msg = f"📉 Aucune promotion d'au moins {promo_min}% actuellement."
+        # Déterminer le message à envoyer
+        if message_aucune_promo:
+            msg = message_aucune_promo
+        else:
+            msg = f"📉 Aucune promotion d'au moins {promo_min}% actuellement."
+        
         if interaction:
             await interaction.followup.send(msg)
         else:
@@ -2355,7 +2372,9 @@ class VuePanneauFiliales(discord.ui.View):
     promos_a_afficher="Les positions à afficher séparées par des virgules (ex: 2, 4, 5)",
     position_opportunite="La position qui doit être affichée en Doré (ex: 2)",
     rapport_automatique="Activer ou désactiver le rapport automatique de 04h05 pour ce salon",
-    information="Texte envoyé après le rapport automatique de 04h05 (mettre \"aucun\" pour le supprimer)"
+    information="Texte envoyé après le rapport automatique de 04h05 (mettre \"aucun\" pour le supprimer)",
+    filtres_noms="Mots-clés pour filtrer les biens par nom (ex: mégapole, penthouse). Les biens doivent contenir au moins un de ces mots (mettre \"aucun\" pour désactiver)",
+    message_aucune_promo="Message à envoyer quand aucune promo n'est valide (min % ou filtres non respectés). Mettre \"aucun\" pour supprimer"
 )
 async def config_bot(
     interaction: discord.Interaction,
@@ -2364,7 +2383,9 @@ async def config_bot(
     promos_a_afficher: str = None,
     position_opportunite: int = None,
     rapport_automatique: bool = None,
-    information: str = None
+    information: str = None,
+    filtres_noms: str = None,
+    message_aucune_promo: str = None
 ):
     if interaction.guild is None:
         await interaction.response.send_message(
@@ -2423,6 +2444,22 @@ async def config_bot(
             config_salon["information"] = information
         modifie = True
 
+    if filtres_noms is not None:
+        if filtres_noms.strip().lower() in ("aucun", "supprimer", "none", ""):
+            config_salon["filtres_noms"] = None
+        else:
+            # Diviser par virgules et nettoyer les espaces, convertir en minuscules pour la comparaison
+            mots_cles = [mot.strip().lower() for mot in filtres_noms.split(",") if mot.strip()]
+            config_salon["filtres_noms"] = mots_cles if mots_cles else None
+        modifie = True
+
+    if message_aucune_promo is not None:
+        if message_aucune_promo.strip().lower() in ("aucun", "supprimer", "none", ""):
+            config_salon["message_aucune_promo"] = None
+        else:
+            config_salon["message_aucune_promo"] = message_aucune_promo
+        modifie = True
+
     if modifie:
         global_config[guild_id_str]["salons"][salon_id_str] = config_salon
         sauvegarder_config(global_config)
@@ -2443,6 +2480,28 @@ async def config_bot(
     embed.add_field(
         name="ℹ️ Rappel après le rapport auto",
         value=info_texte if info_texte else "*Aucun*",
+        inline=False
+    )
+    
+    # Affichage des nouveaux paramètres
+    filtres_texte = config_salon.get("filtres_noms")
+    if filtres_texte:
+        embed.add_field(
+            name="🔍 Filtres sur les Noms",
+            value=", ".join(f"`{mot}`" for mot in filtres_texte),
+            inline=False
+        )
+    else:
+        embed.add_field(
+            name="🔍 Filtres sur les Noms",
+            value="*Aucun filtre (tous les biens acceptés)*",
+            inline=False
+        )
+    
+    message_vide = config_salon.get("message_aucune_promo")
+    embed.add_field(
+        name="📭 Message quand Aucune Promo Valide",
+        value=message_vide if message_vide else "*Aucun message*",
         inline=False
     )
 
@@ -2494,6 +2553,28 @@ async def voir_config(interaction: discord.Interaction, salon_cible: discord.Tex
     embed.add_field(
         name="ℹ️ Rappel après le rapport auto",
         value=info_texte if info_texte else "*Aucun*",
+        inline=False
+    )
+    
+    # Affichage des nouveaux paramètres
+    filtres_texte = config_salon.get("filtres_noms")
+    if filtres_texte:
+        embed.add_field(
+            name="🔍 Filtres sur les Noms",
+            value=", ".join(f"`{mot}`" for mot in filtres_texte),
+            inline=False
+        )
+    else:
+        embed.add_field(
+            name="🔍 Filtres sur les Noms",
+            value="*Aucun filtre (tous les biens acceptés)*",
+            inline=False
+        )
+    
+    message_vide = config_salon.get("message_aucune_promo")
+    embed.add_field(
+        name="📭 Message quand Aucune Promo Valide",
+        value=message_vide if message_vide else "*Aucun message*",
         inline=False
     )
 
