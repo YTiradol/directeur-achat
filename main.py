@@ -580,7 +580,7 @@ async def auto_promo_task(bot_client):
             if salon:
                 nom_salon = f"#{salon.name}"
                 try:
-                    await salon.send("📢 **[Rapport Automatique]** Analyse des opportunités immobilières :")
+                    await salon.send("📢 **bien à acheter**")
                     await generer_et_envoyer_promos(salon, guild_id_str, salon_id_str)
 
                     information = config_salon.get("information")
