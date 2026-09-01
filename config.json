@@ -62,33 +62,7 @@
     "1505504987881672844": {
         "nom_serveur": "🎬 Le Monde de LeCurly 📰",
         "salons": {
-            "1520868189771268116": {
-                "promo_min": 5,
-                "positions_affichage": [
-                    1
-                ],
-                "opportunite_position": 1,
-                "auto_actif": true,
-                "information": null,
-                "filtres_noms": [
-                    "Mégapôle"
-                ],
-                "message_aucune_promo": "Bonjour <@1526582028588417254>, aujourd'hui on n'achète pas la promotion mais la **Mégapole millenium international**."
-            },
             "1520875528243122337": {
-                "promo_min": 5,
-                "positions_affichage": [
-                    1
-                ],
-                "opportunite_position": 1,
-                "auto_actif": true,
-                "information": null,
-                "filtres_noms": [
-                    "Mégapôle"
-                ],
-                "message_aucune_promo": "Bonjour <@1526582028588417254>, aujourd'hui on n'achète pas la promotion mais la **Mégapole millenium international**."
-            },
-            "1530575531559354391": {
                 "promo_min": 5,
                 "positions_affichage": [
                     1
