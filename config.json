@@ -11,7 +11,9 @@
                 ],
                 "opportunite_position": 1,
                 "auto_actif": false,
-                "information": null
+                "information": null,
+                "filtres_noms": null,
+                "message_aucune_promo": null
             },
             "1512569154945679451": {
                 "promo_min": 8,
@@ -22,7 +24,9 @@
                 ],
                 "opportunite_position": 1,
                 "auto_actif": false,
-                "information": null
+                "information": null,
+                "filtres_noms": null,
+                "message_aucune_promo": null
             }
         }
     },
@@ -36,7 +40,9 @@
                 ],
                 "opportunite_position": 1,
                 "auto_actif": true,
-                "information": null
+                "information": null,
+                "filtres_noms": null,
+                "message_aucune_promo": null
             },
             "1511856738167558295": {
                 "promo_min": 7,
@@ -47,12 +53,14 @@
                 ],
                 "opportunite_position": 1,
                 "auto_actif": false,
-                "information": "ok"
+                "information": "ok",
+                "filtres_noms": null,
+                "message_aucune_promo": null
             }
         }
     },
     "1505504987881672844": {
-        "nom_serveur": "\ud83c\udfec Le Monde de LeCurly \ud83d\udcf0",
+        "nom_serveur": "🎬 Le Monde de LeCurly 📰",
         "salons": {
             "1520868189771268116": {
                 "promo_min": 5,
@@ -62,7 +70,9 @@
                 ],
                 "opportunite_position": 1,
                 "auto_actif": true,
-                "information": null
+                "information": null,
+                "filtres_noms": null,
+                "message_aucune_promo": null
             },
             "1520875528243122337": {
                 "promo_min": 5,
@@ -72,7 +82,9 @@
                 ],
                 "opportunite_position": 1,
                 "auto_actif": true,
-                "information": null
+                "information": null,
+                "filtres_noms": null,
+                "message_aucune_promo": null
             },
             "1530575531559354391": {
                 "promo_min": 5,
@@ -81,7 +93,9 @@
                 ],
                 "opportunite_position": 1,
                 "auto_actif": true,
-                "information": null
+                "information": null,
+                "filtres_noms": null,
+                "message_aucune_promo": null
             }
         }
     },
@@ -96,7 +110,9 @@
                 ],
                 "opportunite_position": 1,
                 "auto_actif": true,
-                "information": null
+                "information": null,
+                "filtres_noms": null,
+                "message_aucune_promo": null
             },
             "1515396473423003881": {
                 "promo_min": 7,
@@ -105,7 +121,9 @@
                 ],
                 "opportunite_position": 1,
                 "auto_actif": false,
-                "information": null
+                "information": null,
+                "filtres_noms": null,
+                "message_aucune_promo": null
             }
         }
     },
@@ -119,7 +137,9 @@
                 ],
                 "opportunite_position": 1,
                 "auto_actif": true,
-                "information": null
+                "information": null,
+                "filtres_noms": null,
+                "message_aucune_promo": null
             },
             "1518369760478363668": {
                 "promo_min": 5,
@@ -129,7 +149,9 @@
                 ],
                 "opportunite_position": 1,
                 "auto_actif": false,
-                "information": null
+                "information": null,
+                "filtres_noms": null,
+                "message_aucune_promo": null
             }
         }
     },
@@ -144,7 +166,9 @@
                 ],
                 "opportunite_position": 1,
                 "auto_actif": true,
-                "information": null
+                "information": null,
+                "filtres_noms": null,
+                "message_aucune_promo": null
             }
         }
     },
@@ -159,7 +183,9 @@
                 ],
                 "opportunite_position": 1,
                 "auto_actif": false,
-                "information": null
+                "information": null,
+                "filtres_noms": null,
+                "message_aucune_promo": null
             }
         }
     },
@@ -173,7 +199,9 @@
                 ],
                 "opportunite_position": 1,
                 "auto_actif": false,
-                "information": null
+                "information": null,
+                "filtres_noms": null,
+                "message_aucune_promo": null
             },
             "1523378988502745208": {
                 "promo_min": 7,
@@ -184,7 +212,9 @@
                 ],
                 "opportunite_position": 1,
                 "auto_actif": false,
-                "information": null
+                "information": null,
+                "filtres_noms": null,
+                "message_aucune_promo": null
             }
         }
     },
@@ -199,7 +229,9 @@
                 ],
                 "opportunite_position": 1,
                 "auto_actif": false,
-                "information": null
+                "information": null,
+                "filtres_noms": null,
+                "message_aucune_promo": null
             }
         }
     },
@@ -213,7 +245,9 @@
                 ],
                 "opportunite_position": 1,
                 "auto_actif": true,
-                "information": null
+                "information": null,
+                "filtres_noms": null,
+                "message_aucune_promo": null
             }
         }
     },
@@ -228,7 +262,9 @@
                 ],
                 "opportunite_position": 1,
                 "auto_actif": true,
-                "information": null
+                "information": null,
+                "filtres_noms": null,
+                "message_aucune_promo": null
             }
         }
     },
@@ -243,7 +279,9 @@
                 ],
                 "opportunite_position": 1,
                 "auto_actif": true,
-                "information": null
+                "information": null,
+                "filtres_noms": null,
+                "message_aucune_promo": null
             }
         }
     },
@@ -260,7 +298,9 @@
                 ],
                 "opportunite_position": 1,
                 "auto_actif": true,
-                "information": null
+                "information": null,
+                "filtres_noms": null,
+                "message_aucune_promo": null
             }
         }
     },
@@ -274,7 +314,9 @@
                 ],
                 "opportunite_position": 1,
                 "auto_actif": true,
-                "information": null
+                "information": null,
+                "filtres_noms": null,
+                "message_aucune_promo": " <@1474475087888650332> \n > Aujourd'hui, on n'achète pas la promo, il faut acheter la Mégapole millenium international. \n\n *Merci bonne journée 😊.*
             }
         }
     }
