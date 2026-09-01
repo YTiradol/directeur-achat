@@ -65,14 +65,13 @@
             "1520868189771268116": {
                 "promo_min": 5,
                 "positions_affichage": [
-                    1,
-                    2
+                    1
                 ],
                 "opportunite_position": 1,
                 "auto_actif": true,
                 "information": null,
-                "filtres_noms": null,
-                "message_aucune_promo": null
+                "filtres_noms": "Mégapôle",
+                "message_aucune_promo": "Bonjour <@1526582028588417254> , aujourd'hui on n'achète pas la promotion mais la **Mégapole millenium international**."
             },
             "1520875528243122337": {
                 "promo_min": 5,
@@ -308,15 +307,15 @@
         "nom_serveur": "P&S Side bye Side",
         "salons": {
             "1499135178701017198": {
-                "promo_min": 5,
+                "promo_min": 8,
                 "positions_affichage": [
                     1
                 ],
                 "opportunite_position": 1,
                 "auto_actif": true,
                 "information": null,
-                "filtres_noms": mégapôle,
-                "message_aucune_promo": " <@1474475087888650332> \n > Aujourd'hui, on n'achète pas la promo, il faut acheter la Mégapole millenium international. \n\n *Merci bonne journée 😊.* "
+                "filtres_noms": "Mégapôle",
+                "message_aucune_promo": " <@1474475087888650332> \n > Aujourd'hui, on n'achète pas la promo, il faut acheter la **Mégapole millenium international**. \n\n *Merci bonne journée 😊.* "
             }
         }
     }
