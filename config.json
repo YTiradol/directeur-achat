@@ -70,8 +70,10 @@
                 "opportunite_position": 1,
                 "auto_actif": true,
                 "information": null,
-                "filtres_noms": "Mégapôle",
-                "message_aucune_promo": "Bonjour <@1526582028588417254> , aujourd'hui on n'achète pas la promotion mais la **Mégapole millenium international**."
+                "filtres_noms": [
+                    "Mégapôle"
+                ],
+                "message_aucune_promo": "Bonjour <@1526582028588417254>, aujourd'hui on n'achète pas la promotion mais la **Mégapole millenium international**."
             },
             "1520875528243122337": {
                 "promo_min": 5,
@@ -314,8 +316,10 @@
                 "opportunite_position": 1,
                 "auto_actif": true,
                 "information": null,
-                "filtres_noms": "Mégapôle",
-                "message_aucune_promo": " <@1474475087888650332> \n > Aujourd'hui, on n'achète pas la promo, il faut acheter la **Mégapole millenium international**. \n\n *Merci bonne journée 😊.* "
+                "filtres_noms": [
+                    "Mégapôle"
+                ],
+                "message_aucune_promo": "<@1474475087888650332>\n> Aujourd'hui, on n'achète pas la promo, il faut acheter la **Mégapole millenium international**.\n\n*Merci bonne journée 😊.*"
             }
         }
     }
