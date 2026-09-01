@@ -1,0 +1,835 @@
+{
+    "1530325329443426354": {
+        "nom_serveur": "LQLF Holding",
+        "parametres": {
+            "actif": true,
+            "heure": "23:00",
+            "derniere_execution": "2026-08-15",
+            "bouton_actif": true,
+            "heure_rappel": "03:00",
+            "heure_recap": "22:00",
+            "derniere_execution_rappel": "2026-08-16",
+            "derniere_execution_recap": "2026-08-15",
+            "tableau_actif": true,
+            "salon_tableau_id": "1533449479556956191",
+            "heure_tableau": "03:10",
+            "tableau_message_id": "1538354212985905165",
+            "tableau_derniere_date": "2026-08-16",
+            "relance_actif": false,
+            "heure_relance": null,
+            "derniere_execution_relance": null,
+            "bouton_message": null
+        },
+        "referent": {
+            "salon_id": "1532493136851370096",
+            "joueur_id": "1022925838276112434",
+            "role_id": "1532132084431458475"
+        },
+        "filiales": {
+            "1530834406711890051": {
+                "joueur_id": "721767726720221321",
+                "nom_salon": "bloodofghost",
+                "derniere_validation": "2026-08-15",
+                "dernier_statut": "faite",
+                "valide_par": "721767726720221321"
+            },
+            "1530518565478994061": {
+                "joueur_id": "1530518281146859643",
+                "nom_salon": "dartt06",
+                "derniere_validation": "2026-08-15",
+                "valide_par": "1530518281146859643",
+                "dernier_statut": "faite"
+            },
+            "1530330084290859028": {
+                "joueur_id": "1520056158117826733",
+                "nom_salon": "louisxvi",
+                "derniere_validation": "2026-08-15",
+                "dernier_statut": "faite",
+                "valide_par": "1519690213549674709",
+                "absent": true,
+                "role_remplacant_ids": [
+                    "1532132084431458475"
+                ],
+                "absent_depuis": "2026-08-07"
+            },
+            "1530566320008073416": {
+                "joueur_id": "1022925838276112434",
+                "nom_salon": "ytbcrocomc",
+                "derniere_validation": null,
+                "dernier_statut": null,
+                "valide_par": "1519690213549674709",
+                "absent": false,
+                "role_remplacant_ids": [],
+                "absent_depuis": null
+            },
+            "1530671741276389406": {
+                "joueur_id": "406873418655596554",
+                "nom_salon": "fazen",
+                "derniere_validation": "2026-08-15",
+                "dernier_statut": "faite",
+                "valide_par": "1519690213549674709"
+            },
+            "1530915090662953196": {
+                "joueur_id": "1526307672045912194",
+                "nom_salon": "boy2men",
+                "derniere_validation": "2026-08-15",
+                "valide_par": "1526307672045912194",
+                "dernier_statut": "faite"
+            },
+            "1530988162703163392": {
+                "joueur_id": "688448757666152528",
+                "nom_salon": "swan",
+                "derniere_validation": "2026-08-15",
+                "valide_par": "688448757666152528",
+                "dernier_statut": "faite"
+            },
+            "1531004632074162334": {
+                "joueur_id": "714931131212103741",
+                "nom_salon": "clara-neptuneofficiel",
+                "derniere_validation": "2026-08-15",
+                "valide_par": "714931131212103741",
+                "dernier_statut": "faite"
+            },
+            "1531022317545853039": {
+                "joueur_id": "372726236083912704",
+                "nom_salon": "fox",
+                "derniere_validation": "2026-08-15",
+                "dernier_statut": "faite",
+                "valide_par": "1519690213549674709",
+                "absent": true,
+                "role_remplacant_ids": [
+                    "1532132084431458475"
+                ],
+                "absent_depuis": "2026-08-11"
+            },
+            "1531633334101479504": {
+                "joueur_id": "345286439203897345",
+                "nom_salon": "florian6824",
+                "derniere_validation": "2026-08-15",
+                "valide_par": "1519690213549674709",
+                "dernier_statut": "faite",
+                "absent": true,
+                "role_remplacant_ids": [
+                    "1532132084431458475"
+                ],
+                "absent_depuis": "2026-08-06"
+            },
+            "1531657156128935987": {
+                "joueur_id": "1501534549908258928",
+                "nom_salon": "le-maitre-liostaire",
+                "derniere_validation": "2026-08-15",
+                "dernier_statut": "faite",
+                "valide_par": "1519690213549674709",
+                "absent": true,
+                "role_remplacant_ids": [
+                    "1532132084431458475"
+                ],
+                "absent_depuis": "2026-08-09"
+            },
+            "1531659507938099363": {
+                "joueur_id": "1500198393597788290",
+                "nom_salon": "kesa2231",
+                "derniere_validation": "2026-08-15",
+                "valide_par": "1500198393597788290",
+                "dernier_statut": "faite"
+            },
+            "1532057061746151514": {
+                "joueur_id": "559645387183489024",
+                "nom_salon": "jose81",
+                "derniere_validation": null,
+                "dernier_statut": null,
+                "valide_par": "559645387183489024"
+            },
+            "1532110918018793642": {
+                "joueur_id": "1486070861034422272",
+                "nom_salon": "jims",
+                "derniere_validation": "2026-08-15",
+                "valide_par": "1486070861034422272",
+                "dernier_statut": "faite"
+            },
+            "1532291914550874123": {
+                "joueur_id": "580072141907558411",
+                "nom_salon": "quylisten_",
+                "derniere_validation": "2026-08-15",
+                "dernier_statut": "faite",
+                "valide_par": "580072141907558411"
+            },
+            "1532340007723991162": {
+                "joueur_id": "1090299600834928750",
+                "nom_salon": "kenh",
+                "derniere_validation": "2026-08-15",
+                "valide_par": "1090299600834928750",
+                "dernier_statut": "faite"
+            },
+            "1533039196061696031": {
+                "joueur_id": "1519690213549674709",
+                "nom_salon": "loui2",
+                "derniere_validation": "2026-08-15",
+                "valide_par": "1519690213549674709",
+                "dernier_statut": "faite"
+            },
+            "1533039648908116118": {
+                "joueur_id": "919565041525747712",
+                "nom_salon": "a-il-capo",
+                "derniere_validation": "2026-08-15",
+                "dernier_statut": "faite",
+                "valide_par": "919565041525747712"
+            },
+            "1533591676977676430": {
+                "joueur_id": "733874134874062850",
+                "nom_salon": "lejeune",
+                "derniere_validation": "2026-08-15",
+                "dernier_statut": "faite",
+                "valide_par": "733874134874062850"
+            },
+            "1534266794447995012": {
+                "joueur_id": "826732333330595851",
+                "nom_salon": "just_nino",
+                "derniere_validation": "2026-08-15",
+                "dernier_statut": "faite",
+                "valide_par": "826732333330595851"
+            },
+            "1534664736774426814": {
+                "joueur_id": "1519690213549674709",
+                "nom_salon": "filiale-à-refiler-3",
+                "derniere_validation": "2026-08-15",
+                "dernier_statut": "faite",
+                "valide_par": "1519690213549674709"
+            },
+            "1535233792409735259": {
+                "joueur_id": "1522679140850077731",
+                "nom_salon": "bendoman",
+                "derniere_validation": "2026-08-16",
+                "dernier_statut": "faite",
+                "valide_par": "1522679140850077731"
+            },
+            "1535886980406059118": {
+                "joueur_id": "1535701494165409912",
+                "nom_salon": "loic56667",
+                "derniere_validation": "2026-08-15",
+                "dernier_statut": "faite",
+                "valide_par": "1535701494165409912"
+            }
+        },
+        "injection_programmee": {
+            "actif": false,
+            "heure": null,
+            "salon_id": null,
+            "role_id": null,
+            "joueur_id": null,
+            "derniere_execution": null
+        }
+    },
+    "1518243315936395384": {
+        "nom_serveur": "CAPITAL HOLDING",
+        "parametres": {
+            "actif": false,
+            "heure": "20:00",
+            "derniere_execution": "2026-08-11",
+            "bouton_actif": false,
+            "heure_rappel": "03:00",
+            "heure_recap": "20:00",
+            "derniere_execution_rappel": "2026-08-14",
+            "derniere_execution_recap": "2026-08-14",
+            "tableau_actif": true,
+            "salon_tableau_id": "1533579248978235587",
+            "heure_tableau": "03:05",
+            "tableau_message_id": "1538352954577264792",
+            "tableau_derniere_date": "2026-08-16",
+            "relance_actif": false,
+            "heure_relance": "23:00",
+            "derniere_execution_relance": "2026-08-13",
+            "bouton_message": null
+        },
+        "referent": {
+            "salon_id": "1533579248978235587",
+            "joueur_id": "1490281407958749284",
+            "role_id": null
+        },
+        "filiales": {
+            "1518266229398310962": {
+                "joueur_id": "1513751986636460102",
+                "nom_salon": "said",
+                "derniere_validation": "2026-08-11",
+                "dernier_statut": "faite"
+            },
+            "1518273479021953044": {
+                "joueur_id": "821438911305482312",
+                "nom_salon": "misterfreez",
+                "derniere_validation": "2026-08-14",
+                "dernier_statut": "faite",
+                "valide_par": "1490281407958749284"
+            },
+            "1533125734212571136": {
+                "joueur_id": "472740147759284234",
+                "nom_salon": "clad",
+                "derniere_validation": "2026-08-14",
+                "dernier_statut": "faite",
+                "valide_par": "1490281407958749284"
+            },
+            "1526697850350866645": {
+                "joueur_id": "396269382281723906",
+                "nom_salon": "sweety",
+                "derniere_validation": "2026-08-14",
+                "dernier_statut": "faite",
+                "valide_par": "1490281407958749284"
+            },
+            "1524995696330018838": {
+                "joueur_id": "1307119291107250286",
+                "nom_salon": "franck91",
+                "derniere_validation": "2026-08-14",
+                "dernier_statut": "faite",
+                "valide_par": "1490281407958749284"
+            },
+            "1521498661249613935": {
+                "joueur_id": "192056936777121793",
+                "nom_salon": "nargoyt",
+                "derniere_validation": "2026-08-14",
+                "dernier_statut": "faite",
+                "valide_par": "1490281407958749284"
+            },
+            "1520484585807417395": {
+                "joueur_id": "1331555668502773775",
+                "nom_salon": "le-curly",
+                "derniere_validation": "2026-08-14",
+                "dernier_statut": "faite",
+                "valide_par": "1490281407958749284"
+            },
+            "1520180101147394251": {
+                "joueur_id": "692306562189885461",
+                "nom_salon": "darkphoenix",
+                "derniere_validation": "2026-08-14",
+                "dernier_statut": "faite",
+                "valide_par": "1490281407958749284"
+            },
+            "1520169477495328932": {
+                "joueur_id": "919565041525747712",
+                "nom_salon": "il_capo",
+                "derniere_validation": "2026-08-14",
+                "dernier_statut": "faite",
+                "valide_par": "1490281407958749284"
+            },
+            "1519661685605007483": {
+                "joueur_id": "396772001546764292",
+                "nom_salon": "creedex77",
+                "derniere_validation": "2026-08-11",
+                "dernier_statut": "faite",
+                "valide_par": "396772001546764292"
+            },
+            "1519213740015489066": {
+                "joueur_id": "1365611399660703847",
+                "nom_salon": "meliodas-escanor",
+                "derniere_validation": "2026-08-14",
+                "dernier_statut": "faite",
+                "valide_par": "1490281407958749284"
+            },
+            "1519095461691003011": {
+                "joueur_id": "341514245722079234",
+                "nom_salon": "princeofdarklions54",
+                "derniere_validation": "2026-08-14",
+                "dernier_statut": "faite",
+                "valide_par": "1490281407958749284"
+            },
+            "1519093225426780170": {
+                "joueur_id": "616946118554812416",
+                "nom_salon": "tthor48",
+                "derniere_validation": "2026-08-14",
+                "dernier_statut": "faite",
+                "valide_par": "1490281407958749284"
+            },
+            "1518619365405364255": {
+                "joueur_id": "464814496624410635",
+                "nom_salon": "droasu",
+                "derniere_validation": "2026-08-14",
+                "dernier_statut": "faite",
+                "valide_par": "1490281407958749284"
+            },
+            "1518714203429535754": {
+                "joueur_id": "706116793453903903",
+                "nom_salon": "mattéo_pvg",
+                "derniere_validation": "2026-08-14",
+                "dernier_statut": "faite",
+                "valide_par": "1490281407958749284"
+            },
+            "1518399425037209611": {
+                "joueur_id": "639946940314026005",
+                "nom_salon": "malammore",
+                "derniere_validation": "2026-08-14",
+                "dernier_statut": "faite",
+                "valide_par": "1490281407958749284"
+            },
+            "1518371768509792318": {
+                "joueur_id": "440062155019255819",
+                "nom_salon": "thim",
+                "derniere_validation": "2026-08-14",
+                "dernier_statut": "faite",
+                "valide_par": "1490281407958749284"
+            },
+            "1518372532657328221": {
+                "joueur_id": "1352742061807374457",
+                "nom_salon": "jey",
+                "derniere_validation": "2026-08-14",
+                "dernier_statut": "faite",
+                "valide_par": "1490281407958749284"
+            },
+            "1518628196507979926": {
+                "joueur_id": "1455606020901441670",
+                "nom_salon": "sebb91",
+                "derniere_validation": "2026-08-14",
+                "dernier_statut": "faite",
+                "valide_par": "1490281407958749284"
+            },
+            "1533860060071989298": {
+                "joueur_id": "1515309632099455099",
+                "nom_salon": "fiji96",
+                "derniere_validation": "2026-08-14",
+                "dernier_statut": "faite",
+                "valide_par": "1490281407958749284"
+            },
+            "1533913755371442378": {
+                "joueur_id": "1164992609698193520",
+                "nom_salon": "fb205953",
+                "derniere_validation": "2026-08-14",
+                "dernier_statut": "faite",
+                "valide_par": "1490281407958749284"
+            },
+            "1533920464919855244": {
+                "joueur_id": "1501209842944184473",
+                "nom_salon": "keleana",
+                "derniere_validation": "2026-08-14",
+                "dernier_statut": "faite",
+                "valide_par": "1490281407958749284"
+            },
+            "1533885800138408006": {
+                "joueur_id": "1314878611039195238",
+                "nom_salon": "kev",
+                "derniere_validation": "2026-08-14",
+                "dernier_statut": "faite",
+                "valide_par": "1490281407958749284"
+            },
+            "1534226652341735638": {
+                "joueur_id": "1464990486484746250",
+                "nom_salon": "ckitusa",
+                "derniere_validation": "2026-08-14",
+                "dernier_statut": "faite",
+                "valide_par": "1490281407958749284"
+            },
+            "1534258458302611648": {
+                "joueur_id": "1516054252550885466",
+                "nom_salon": "minutsia",
+                "derniere_validation": "2026-08-14",
+                "dernier_statut": "faite",
+                "valide_par": "1490281407958749284"
+            }
+        },
+        "injection_programmee": {
+            "actif": false,
+            "heure": "03:00",
+            "salon_id": "1533963921776578560",
+            "role_id": "1518246275924103290",
+            "joueur_id": "1490281407958749284",
+            "derniere_execution": "2026-08-11"
+        }
+    },
+    "1511460565720236092": {
+        "nom_serveur": "liostaire empirgroup",
+        "parametres": {
+            "actif": false,
+            "heure": null,
+            "derniere_execution": null,
+            "bouton_actif": true,
+            "heure_rappel": "03:50",
+            "heure_recap": "22:00",
+            "derniere_execution_rappel": "2026-08-16",
+            "derniere_execution_recap": "2026-08-15",
+            "tableau_actif": true,
+            "salon_tableau_id": "1533460071160483951",
+            "heure_tableau": "04:00",
+            "tableau_message_id": "1538366795822669935",
+            "tableau_derniere_date": "2026-08-16",
+            "relance_actif": true,
+            "heure_relance": "20:00",
+            "derniere_execution_relance": "2026-08-15",
+            "bouton_message": null
+        },
+        "referent": {
+            "salon_id": "1533460071160483951",
+            "joueur_id": "1501534549908258928",
+            "role_id": null
+        },
+        "filiales": {
+            "1513107585392312340": {
+                "joueur_id": "733874134874062850",
+                "nom_salon": "immo76",
+                "derniere_validation": "2026-08-15",
+                "dernier_statut": "faite",
+                "valide_par": "733874134874062850"
+            },
+            "1513107674454294548": {
+                "joueur_id": "733874134874062850",
+                "nom_salon": "immmo-59",
+                "derniere_validation": "2026-08-15",
+                "dernier_statut": "faite",
+                "valide_par": "733874134874062850"
+            },
+            "1513542614836580494": {
+                "joueur_id": "831137424313679962",
+                "nom_salon": "immo-02",
+                "derniere_validation": "2026-08-15",
+                "dernier_statut": "faite",
+                "valide_par": "831137424313679962"
+            },
+            "1515001711599812800": {
+                "joueur_id": "1537815070699159632",
+                "nom_salon": "liostaire-loc",
+                "derniere_validation": "2026-08-15",
+                "dernier_statut": "faite",
+                "valide_par": "1537815070699159632",
+                "absent": false,
+                "role_remplacant_ids": [],
+                "absent_depuis": null
+            },
+            "1525814870472261722": {
+                "joueur_id": "714931131212103741",
+                "nom_salon": "immo-14",
+                "derniere_validation": "2026-08-15",
+                "dernier_statut": "faite",
+                "valide_par": "714931131212103741"
+            },
+            "1525888620819513354": {
+                "joueur_id": "559645387183489024",
+                "nom_salon": "immo-27",
+                "derniere_validation": "2026-08-15",
+                "dernier_statut": "faite",
+                "valide_par": "1501534549908258928",
+                "absent": true,
+                "role_remplacant_ids": [
+                    "1512942138680279041"
+                ],
+                "absent_depuis": "2026-08-14"
+            },
+            "1529123651260252270": {
+                "joueur_id": "831137424313679962",
+                "nom_salon": "immo-60",
+                "derniere_validation": "2026-08-15",
+                "dernier_statut": "faite",
+                "valide_par": "831137424313679962"
+            },
+            "1534168235942088896": {
+                "joueur_id": "559645387183489024",
+                "nom_salon": "immo-80",
+                "derniere_validation": "2026-08-15",
+                "dernier_statut": "faite",
+                "valide_par": "1501534549908258928",
+                "absent": true,
+                "role_remplacant_ids": [
+                    "1512942138680279041"
+                ],
+                "absent_depuis": "2026-08-14"
+            },
+            "1534702475964059679": {
+                "joueur_id": "346942065869062144",
+                "nom_salon": "immo-40",
+                "derniere_validation": "2026-08-15",
+                "dernier_statut": "faite",
+                "valide_par": "346942065869062144"
+            },
+            "1537069444969402368": {
+                "joueur_id": "1519690213549674709",
+                "nom_salon": "immo-35",
+                "derniere_validation": "2026-08-15",
+                "dernier_statut": "faite",
+                "valide_par": "1519690213549674709"
+            },
+            "1537508246724542474": {
+                "joueur_id": "1500198393597788290",
+                "nom_salon": "immo-77",
+                "derniere_validation": "2026-08-15",
+                "dernier_statut": "faite",
+                "valide_par": "1501534549908258928"
+            }
+        },
+        "injection_programmee": {
+            "actif": false,
+            "heure": null,
+            "salon_id": null,
+            "role_id": null,
+            "joueur_id": null,
+            "derniere_execution": null
+        }
+    },
+    "1505504987881672844": {
+        "nom_serveur": "🏬 Le Monde de LeCurly 📰",
+        "parametres": {
+            "actif": false,
+            "heure": null,
+            "derniere_execution": null,
+            "bouton_actif": false,
+            "heure_rappel": "04:00",
+            "heure_recap": "22:00",
+            "derniere_execution_rappel": null,
+            "derniere_execution_recap": null,
+            "tableau_actif": false,
+            "salon_tableau_id": "1533587259293700276",
+            "heure_tableau": "04:05",
+            "tableau_message_id": null,
+            "tableau_derniere_date": null,
+            "relance_actif": false,
+            "heure_relance": null,
+            "derniere_execution_relance": null,
+            "bouton_message": null
+        },
+        "referent": {
+            "salon_id": null,
+            "joueur_id": null,
+            "role_id": null
+        },
+        "filiales": {
+            "1532531666403328262": {
+                "joueur_id": "1519452998101766217",
+                "nom_salon": "allan"
+            },
+            "1526638187361992724": {
+                "joueur_id": "1513751986636460102",
+                "nom_salon": "arsène-lupin"
+            },
+            "1526613115314245652": {
+                "joueur_id": "306166467387195393",
+                "nom_salon": "benmagic73333"
+            },
+            "1526592569046335548": {
+                "joueur_id": "396269382281723906",
+                "nom_salon": "sweetyshadoows"
+            },
+            "1526601054022537267": {
+                "joueur_id": "177893399351787521",
+                "nom_salon": "spanki"
+            },
+            "1526602020943827074": {
+                "joueur_id": "1361496622948679921",
+                "nom_salon": "themonsterclub69"
+            },
+            "1526612138271969473": {
+                "joueur_id": "1508484448965099630",
+                "nom_salon": "isabelle62"
+            },
+            "1526614804075118693": {
+                "joueur_id": "151374133941239808",
+                "nom_salon": "floaddicted"
+            },
+            "1526878101966033007": {
+                "joueur_id": "1521326410671718458",
+                "nom_salon": "alex--matech"
+            },
+            "1527413277989146645": {
+                "joueur_id": "282818203086749696",
+                "nom_salon": "simple_mat"
+            },
+            "1527676311777316966": {
+                "joueur_id": "440062155019255819",
+                "nom_salon": "thim"
+            },
+            "1527993638637015080": {
+                "joueur_id": "1420092723943440384",
+                "nom_salon": "raphael6_3"
+            },
+            "1528334690040152144": {
+                "joueur_id": "494949762521497601",
+                "nom_salon": "tazom"
+            },
+            "1528336670217474208": {
+                "joueur_id": "1524143512910823494",
+                "nom_salon": "nadrik"
+            },
+            "1528339050971271230": {
+                "joueur_id": "671854165906948096",
+                "nom_salon": "devilchris01"
+            },
+            "1531799029489340556": {
+                "joueur_id": "821438911305482312",
+                "nom_salon": "misterfreez"
+            },
+            "1532052402784698492": {
+                "joueur_id": "1500198393597788290",
+                "nom_salon": "kesa2231"
+            },
+            "1533167183494906030": {
+                "joueur_id": "1417166408663564430",
+                "nom_salon": "cmarbel15"
+            },
+            "1533221937885741277": {
+                "joueur_id": "1284218992369729608",
+                "nom_salon": "kev-fr"
+            },
+            "1533936553221689374": {
+                "joueur_id": "1331555668502773775",
+                "nom_salon": "junior"
+            }
+        },
+        "injection_programmee": {
+            "actif": false,
+            "heure": "03:00",
+            "salon_id": "1530580182128398386",
+            "role_id": "1530572783141126175",
+            "joueur_id": null,
+            "derniere_execution": "2026-08-07"
+        }
+    },
+    "1467310337198919813": {
+        "nom_serveur": "ID 1467310337198919813",
+        "parametres": {
+            "actif": false,
+            "heure": null,
+            "derniere_execution": null,
+            "bouton_actif": false,
+            "heure_rappel": null,
+            "heure_recap": null,
+            "derniere_execution_rappel": null,
+            "derniere_execution_recap": null,
+            "bouton_message": null,
+            "tableau_actif": false,
+            "salon_tableau_id": null,
+            "heure_tableau": null,
+            "tableau_message_id": null,
+            "tableau_derniere_date": null,
+            "relance_actif": false,
+            "heure_relance": null,
+            "derniere_execution_relance": null
+        },
+        "referent": {
+            "salon_id": null,
+            "joueur_id": null,
+            "role_id": null
+        },
+        "injection_programmee": {
+            "actif": false,
+            "heure": null,
+            "salon_id": null,
+            "role_id": null,
+            "joueur_id": null,
+            "derniere_execution": null
+        },
+        "filiales": {
+            "1467310339476684947": {
+                "joueur_id": "616946118554812416",
+                "nom_salon": "general-public"
+            }
+        }
+    },
+    "1536791775987900497": {
+        "nom_serveur": "AETHERIS CAPITAL",
+        "parametres": {
+            "actif": false,
+            "heure": null,
+            "derniere_execution": null,
+            "bouton_actif": true,
+            "heure_rappel": "03:00",
+            "heure_recap": "22:00",
+            "derniere_execution_rappel": "2026-08-16",
+            "derniere_execution_recap": "2026-08-15",
+            "bouton_message": null,
+            "tableau_actif": true,
+            "salon_tableau_id": "1536799976363925665",
+            "heure_tableau": "03:00",
+            "tableau_message_id": "1538351696324075591",
+            "tableau_derniere_date": "2026-08-16",
+            "relance_actif": false,
+            "heure_relance": null,
+            "derniere_execution_relance": null
+        },
+        "referent": {
+            "salon_id": "1536799976363925665",
+            "joueur_id": "1490281407958749284",
+            "role_id": null
+        },
+        "injection_programmee": {
+            "actif": true,
+            "heure": "6:30",
+            "salon_id": "1536799739440406704",
+            "role_id": "1536793866647244881",
+            "joueur_id": "1490281407958749284",
+            "derniere_execution": null
+        },
+        "filiales": {
+            "1536814843993137182": {
+                "joueur_id": "1331555668502773775",
+                "nom_salon": "le-curly",
+                "derniere_validation": "2026-08-15",
+                "dernier_statut": "faite",
+                "valide_par": "1490281407958749284"
+            },
+            "1536976845440946227": {
+                "joueur_id": "1513751986636460102",
+                "nom_salon": "arsène-lupin",
+                "derniere_validation": "2026-08-15",
+                "dernier_statut": "faite",
+                "valide_par": "1490281407958749284"
+            },
+            "1537165550780948482": {
+                "joueur_id": "1390388824324046969",
+                "nom_salon": "kaboosh",
+                "derniere_validation": "2026-08-15",
+                "dernier_statut": "faite",
+                "valide_par": "1390388824324046969"
+            },
+            "1537180831309889548": {
+                "joueur_id": "440062155019255819",
+                "nom_salon": "thim",
+                "derniere_validation": "2026-08-15",
+                "dernier_statut": "faite",
+                "valide_par": "440062155019255819"
+            },
+            "1537492006224531516": {
+                "joueur_id": "1367714664061997056",
+                "nom_salon": "leonardo",
+                "derniere_validation": "2026-08-16",
+                "dernier_statut": "faite",
+                "valide_par": "1367714664061997056"
+            },
+            "1538131740948824144": {
+                "joueur_id": "396269382281723906",
+                "nom_salon": "sweetyshadoows"
+            },
+            "1538069710279549020": {
+                "joueur_id": "821438911305482312",
+                "nom_salon": "misterfreez"
+            }
+        }
+    },
+    "1529507413403766784": {
+        "nom_serveur": "Isabelle62",
+        "parametres": {
+            "actif": false,
+            "heure": null,
+            "derniere_execution": null,
+            "bouton_actif": false,
+            "heure_rappel": null,
+            "heure_recap": null,
+            "derniere_execution_rappel": null,
+            "derniere_execution_recap": null,
+            "bouton_message": null,
+            "tableau_actif": false,
+            "salon_tableau_id": null,
+            "heure_tableau": null,
+            "tableau_message_id": null,
+            "tableau_derniere_date": null,
+            "relance_actif": false,
+            "heure_relance": null,
+            "derniere_execution_relance": null
+        },
+        "referent": {
+            "salon_id": null,
+            "joueur_id": null,
+            "role_id": null
+        },
+        "injection_programmee": {
+            "actif": false,
+            "heure": null,
+            "salon_id": null,
+            "role_id": null,
+            "joueur_id": null,
+            "derniere_execution": null
+        },
+        "filiales": {}
+    }
+}

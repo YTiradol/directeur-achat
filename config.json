@@ -1,0 +1,281 @@
+{
+    "1512028451975073832": {
+        "nom_serveur": "Holding Simbakachu",
+        "salons": {
+            "1512571456016613447": {
+                "promo_min": 8,
+                "positions_affichage": [
+                    1,
+                    2,
+                    3
+                ],
+                "opportunite_position": 1,
+                "auto_actif": false,
+                "information": null
+            },
+            "1512569154945679451": {
+                "promo_min": 8,
+                "positions_affichage": [
+                    1,
+                    2,
+                    3
+                ],
+                "opportunite_position": 1,
+                "auto_actif": false,
+                "information": null
+            }
+        }
+    },
+    "1511796347106361344": {
+        "nom_serveur": "Maison Delore",
+        "salons": {
+            "1512058076130181150": {
+                "promo_min": 5,
+                "positions_affichage": [
+                    1
+                ],
+                "opportunite_position": 1,
+                "auto_actif": true,
+                "information": null
+            },
+            "1511856738167558295": {
+                "promo_min": 7,
+                "positions_affichage": [
+                    1,
+                    2,
+                    3
+                ],
+                "opportunite_position": 1,
+                "auto_actif": false,
+                "information": "ok"
+            }
+        }
+    },
+    "1505504987881672844": {
+        "nom_serveur": "\ud83c\udfec Le Monde de LeCurly \ud83d\udcf0",
+        "salons": {
+            "1520868189771268116": {
+                "promo_min": 5,
+                "positions_affichage": [
+                    1,
+                    2
+                ],
+                "opportunite_position": 1,
+                "auto_actif": true,
+                "information": null
+            },
+            "1520875528243122337": {
+                "promo_min": 5,
+                "positions_affichage": [
+                    1,
+                    2
+                ],
+                "opportunite_position": 1,
+                "auto_actif": true,
+                "information": null
+            },
+            "1530575531559354391": {
+                "promo_min": 5,
+                "positions_affichage": [
+                    1
+                ],
+                "opportunite_position": 1,
+                "auto_actif": true,
+                "information": null
+            }
+        }
+    },
+    "1515396471644491857": {
+        "nom_serveur": "ToonImmo Holding",
+        "salons": {
+            "1515398676225327295": {
+                "promo_min": 5,
+                "positions_affichage": [
+                    1,
+                    2
+                ],
+                "opportunite_position": 1,
+                "auto_actif": true,
+                "information": null
+            },
+            "1515396473423003881": {
+                "promo_min": 7,
+                "positions_affichage": [
+                    2
+                ],
+                "opportunite_position": 1,
+                "auto_actif": false,
+                "information": null
+            }
+        }
+    },
+    "1518243315936395384": {
+        "nom_serveur": "CAPITAL HOLDING",
+        "salons": {
+            "1519002999207235594": {
+                "promo_min": 8,
+                "positions_affichage": [
+                    1
+                ],
+                "opportunite_position": 1,
+                "auto_actif": true,
+                "information": null
+            },
+            "1518369760478363668": {
+                "promo_min": 5,
+                "positions_affichage": [
+                    1,
+                    2
+                ],
+                "opportunite_position": 1,
+                "auto_actif": false,
+                "information": null
+            }
+        }
+    },
+    "1512602497863123066": {
+        "nom_serveur": "Pierre & Valeur",
+        "salons": {
+            "1512605923485679757": {
+                "promo_min": 7,
+                "positions_affichage": [
+                    1,
+                    2
+                ],
+                "opportunite_position": 1,
+                "auto_actif": true,
+                "information": null
+            }
+        }
+    },
+    "1519702138241155235": {
+        "nom_serveur": "Elchacha holding",
+        "salons": {
+            "1519714157732303108": {
+                "promo_min": 7,
+                "positions_affichage": [
+                    1,
+                    2
+                ],
+                "opportunite_position": 1,
+                "auto_actif": false,
+                "information": null
+            }
+        }
+    },
+    "1467992447341822140": {
+        "nom_serveur": "Ville de Baselis Empire Immo",
+        "salons": {
+            "1494546708431114371": {
+                "promo_min": 5,
+                "positions_affichage": [
+                    1
+                ],
+                "opportunite_position": 1,
+                "auto_actif": false,
+                "information": null
+            },
+            "1523378988502745208": {
+                "promo_min": 7,
+                "positions_affichage": [
+                    1,
+                    2,
+                    3
+                ],
+                "opportunite_position": 1,
+                "auto_actif": false,
+                "information": null
+            }
+        }
+    },
+    "1435758505981378631": {
+        "nom_serveur": "PrinceofDarkLion Business",
+        "salons": {
+            "1520951690356854895": {
+                "promo_min": 7,
+                "positions_affichage": [
+                    1,
+                    2
+                ],
+                "opportunite_position": 1,
+                "auto_actif": false,
+                "information": null
+            }
+        }
+    },
+    "1500610283071344642": {
+        "nom_serveur": "Groupe Gaara",
+        "salons": {
+            "1500979464689946786": {
+                "promo_min": 8,
+                "positions_affichage": [
+                    1
+                ],
+                "opportunite_position": 1,
+                "auto_actif": true,
+                "information": null
+            }
+        }
+    },
+    "1522700101900959774": {
+        "nom_serveur": "imperial compagny",
+        "salons": {
+            "1522703721950216332": {
+                "promo_min": 5,
+                "positions_affichage": [
+                    1,
+                    2
+                ],
+                "opportunite_position": 1,
+                "auto_actif": true,
+                "information": null
+            }
+        }
+    },
+    "1529507413403766784": {
+        "nom_serveur": "Isabelle62",
+        "salons": {
+            "1529507742266691695": {
+                "promo_min": 5,
+                "positions_affichage": [
+                    1,
+                    2
+                ],
+                "opportunite_position": 1,
+                "auto_actif": true,
+                "information": null
+            }
+        }
+    },
+    "1511460565720236092": {
+        "promotions": {}
+    },
+    "1536791775987900497": {
+        "nom_serveur": "AETHERIS CAPITAL",
+        "salons": {
+            "1536798831381975054": {
+                "promo_min": 5,
+                "positions_affichage": [
+                    1
+                ],
+                "opportunite_position": 1,
+                "auto_actif": true,
+                "information": null
+            }
+        }
+    },
+    "1463872049805136089": {
+        "nom_serveur": "P&S Side bye Side",
+        "salons": {
+            "1499135178701017198": {
+                "promo_min": 5,
+                "positions_affichage": [
+                    1
+                ],
+                "opportunite_position": 1,
+                "auto_actif": true,
+                "information": null
+            }
+        }
+    }
+}

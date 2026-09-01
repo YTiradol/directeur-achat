@@ -1,0 +1,287 @@
+{
+    "1": {
+        "id": "1",
+        "guild_id": "1505504987881672844",
+        "salon_id": "1520867024702804068",
+        "jour_nom": "Tous les jours",
+        "jours_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "heure": "20:00",
+        "message": "<@&1520860091195195525> faite votre filiale avant 23h. N'oubliez pas les assurances et de revendre les bien invendus",
+        "auteur_id": "1348692570670108673"
+    },
+    "2": {
+        "id": "2",
+        "guild_id": "1505504987881672844",
+        "salon_id": "1520867024702804068",
+        "jour_nom": "Mercredi",
+        "jours_indices": [
+            2
+        ],
+        "heure": "04:00",
+        "message": "<@&1520860091195195525> Payer les impôts après avoir fait le PAV",
+        "auteur_id": "1348692570670108673"
+    },
+    "3": {
+        "id": "3",
+        "guild_id": "1505504987881672844",
+        "salon_id": "1520867024702804068",
+        "jour_nom": "Lundi, Mardi",
+        "jours_indices": [
+            0,
+            1
+        ],
+        "heure": "04:00",
+        "message": "<@&1520860091195195525> les impôts se paient le mercredi après les achats ☺️. Attention on vous surveille 🧐😑!",
+        "auteur_id": "1348692570670108673"
+    },
+    "4": {
+        "id": "4",
+        "guild_id": "1522700101900959774",
+        "salon_id": "1522703227735375912",
+        "jour_nom": "Tous les jours",
+        "jours_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "heure": "20:00",
+        "message": "<@&1522701903769636944> Pensez a tous remettre en vente a +14% et de mettre les assurances",
+        "auteur_id": "1348692570670108673"
+    },
+    "5": {
+        "id": "5",
+        "guild_id": "1500610283071344642",
+        "salon_id": "1500978482526687283",
+        "jour_nom": "Tous les jours",
+        "jours_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "heure": "20:00",
+        "message": "<@&1521240750933938316> Pensez a tous remettre en vente a +15% et de mettre les assurances",
+        "auteur_id": "1348692570670108673"
+    },
+    "8": {
+        "id": "8",
+        "guild_id": "1530325329443426354",
+        "salon_id": "1530330519013691412",
+        "jour_nom": "Mercredi",
+        "jours_indices": [
+            2
+        ],
+        "heure": "06:00",
+        "message": "<@&1531002041990643823> il faut payer les impôts après avoir fait les achats 😊.",
+        "auteur_id": "1348692570670108673"
+    },
+    "9": {
+        "id": "9",
+        "guild_id": "1530325329443426354",
+        "salon_id": "1530330519013691412",
+        "jour_nom": "Lundi",
+        "jours_indices": [
+            0
+        ],
+        "heure": "06:00",
+        "message": "<@&1531002041990643823> il faut payer les impôts MERCREDI après les achats.",
+        "auteur_id": "1348692570670108673"
+    },
+    "10": {
+        "id": "10",
+        "guild_id": "1518243315936395384",
+        "salon_id": "1518643152611971214",
+        "jour_nom": "Tous les jours",
+        "jours_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "heure": "23:00",
+        "message": "@everyone\n\nN'oubliez pas de gérer vos filiales avant la mise à jour de 03 : 00 .  N'oubliez pas d'assurer les biens et d'équilibrer les vente\n au client 😇😇\n\n La prime max actuel est de 25Z merci de ne pas le depacer sans autorisation. Au préalable 😊",
+        "auteur_id": "1490281407958749284"
+    },
+    "11": {
+        "id": "11",
+        "guild_id": "1518243315936395384",
+        "salon_id": "1518643152611971214",
+        "jour_nom": "Mercredi",
+        "jours_indices": [
+            2
+        ],
+        "heure": "05:00",
+        "message": "@everyone\nLes impôts ce paye après les achats 😇",
+        "auteur_id": "1490281407958749284"
+    },
+    "12": {
+        "id": "12",
+        "guild_id": "1518243315936395384",
+        "salon_id": "1518643152611971214",
+        "jour_nom": "Lundi",
+        "jours_indices": [
+            0
+        ],
+        "heure": "05:00",
+        "message": "@everyone\n\nNouveau montant des primes disponibles dans quelques heures😇\n\nLes impôts ce paye mercredi après les achats \nMerci😇😇",
+        "auteur_id": "1490281407958749284"
+    },
+    "13": {
+        "id": "13",
+        "guild_id": "1505504987881672844",
+        "salon_id": "1530575683246493707",
+        "jour_nom": "Mercredi",
+        "jours_indices": [
+            2
+        ],
+        "heure": "04:00",
+        "message": "<@&1530572464630005881> Payer les impôts après avoir fait le PAV",
+        "auteur_id": "1348692570670108673"
+    },
+    "14": {
+        "id": "14",
+        "guild_id": "1505504987881672844",
+        "salon_id": "1530575683246493707",
+        "jour_nom": "Lundi, Mardi",
+        "jours_indices": [
+            0,
+            1
+        ],
+        "heure": "04:00",
+        "message": "<@&1530572464630005881> les impôts se paient le mercredi après les achats ☺️. Attention on vous surveille 🧐😑!",
+        "auteur_id": "1348692570670108673"
+    },
+    "15": {
+        "id": "15",
+        "guild_id": "1505504987881672844",
+        "salon_id": "1520884664720691351",
+        "jour_nom": "Mercredi",
+        "jours_indices": [
+            2
+        ],
+        "heure": "04:00",
+        "message": "<@&1526582028588417254> Payer les impôts après avoir fait le PAV",
+        "auteur_id": "1348692570670108673"
+    },
+    "16": {
+        "id": "16",
+        "guild_id": "1505504987881672844",
+        "salon_id": "1520884664720691351",
+        "jour_nom": "Lundi, Mardi",
+        "jours_indices": [
+            0,
+            1
+        ],
+        "heure": "04:00",
+        "message": "<@&1526582028588417254> les impôts se paient le mercredi après les achats ☺️. Attention on vous surveille 🧐😑!",
+        "auteur_id": "1348692570670108673"
+    },
+    "17": {
+        "id": "17",
+        "guild_id": "1518243315936395384",
+        "salon_id": "1518244373211517018",
+        "jour_nom": "Tous les jours",
+        "jours_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "heure": "7:00",
+        "message": "<@&1518247689823719565>\nNouvelle levée de fond aujourd'hui \nVeillez validez les votes svp😇",
+        "auteur_id": "1490281407958749284"
+    },
+    "18": {
+        "id": "18",
+        "guild_id": "1518243315936395384",
+        "salon_id": "1518244373211517018",
+        "jour_nom": "Tous les jours",
+        "jours_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "heure": "22:00",
+        "message": "<@&1518247689823719565>\n Message automatique \nMerci de participer à la levée de fond en cours pour ceux qui ne l'on pas encore fait😇",
+        "auteur_id": "1490281407958749284"
+    },
+    "19": {
+        "id": "19",
+        "guild_id": "1505504987881672844",
+        "salon_id": "1519468987719745556",
+        "jour_nom": "Jeudi",
+        "jours_indices": [
+            3
+        ],
+        "heure": "22:25",
+        "message": "@everyone\noups salut as tous🤣🤣😅",
+        "auteur_id": "1490281407958749284"
+    },
+    "20": {
+        "id": "20",
+        "guild_id": "1536791775987900497",
+        "salon_id": "1536799045744464012",
+        "jour_nom": "Tous les jours",
+        "jours_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "heure": "23:00",
+        "message": "@everyone\n\nN'oubliez pas de gerer vos filiales 😇😇 pour tous ceux qui ne l'ont pas encore gerer😔 \n\nMerci de ne pas depasser le seuil de la prime max qui est de 500Z pour l'instant 😇😇",
+        "auteur_id": "1490281407958749284"
+    },
+    "21": {
+        "id": "21",
+        "guild_id": "1536791775987900497",
+        "salon_id": "1536799045744464012",
+        "jour_nom": "Lundi",
+        "jours_indices": [
+            0
+        ],
+        "heure": "7:00",
+        "message": "@everyone\n\nMerci de ne pas toucher au impot avant mercredi svp 😇😇",
+        "auteur_id": "1490281407958749284"
+    },
+    "22": {
+        "id": "22",
+        "guild_id": "1536791775987900497",
+        "salon_id": "1536796102685102220",
+        "jour_nom": "Mercredi",
+        "jours_indices": [
+            2
+        ],
+        "heure": "7:00",
+        "message": "@everyone \n\nMerci de payer vos impot apres l'achat du jour \nOn vous observe 🤪🤪",
+        "auteur_id": "1490281407958749284"
+    }
+}
